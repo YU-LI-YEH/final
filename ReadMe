@@ -1,4 +1,13 @@
 (1) follow the line to an object
+      Use OpenMV to detect a straight line.
+      Send the parameters of the detected line (end points of lines as x1, y1, x2, y2) to mbed through UART connections.
+      Steer BB car to go forward and follow the line.
 (2) circle around the object
 (3) use a AprilTag and PING to calibrate the location
+      Use OpenMV to scan the above AprilTag codes. We can use the scanned AprilTag to determine the viewing angle from OpenMV to the AprilTag surface.
+      Steer BB Car such that the car is facing directly and perpendicular to the AprilTag surface.
+      Use PING to measure the distance between BB Car and AprilTag surface.
 (4) follow another line to a destination
+      Use OpenMV to detect a straight line.
+      Send the parameters of the detected line (end points of lines as x1, y1, x2, y2) to mbed through UART connections.
+      Steer BB car to go forward and follow the line.
